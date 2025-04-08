@@ -9,6 +9,7 @@ print("🟢 guru.bot запускается...")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
+print(f"🔑 BOT_TOKEN: {BOT_TOKEN}")
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
 logging.basicConfig(level=logging.INFO)
