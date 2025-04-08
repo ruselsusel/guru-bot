@@ -2,8 +2,3 @@ aiogram==2.24
 httpx==0.23.0
 python-dotenv
 aiohttp==3.8.1
-build-essential
-libssl-dev
-libffi-dev
-python3-dev
-
